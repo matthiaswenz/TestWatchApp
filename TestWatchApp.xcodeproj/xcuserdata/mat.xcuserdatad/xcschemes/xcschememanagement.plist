@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TestKeyboard.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>TestWatchApp WatchKit App (Complication).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -14,15 +19,43 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>TestWatchApp WatchKit App.xcscheme</key>
+		<key>TestWatchApp WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>TestWatchApp.xcscheme</key>
+		<key>TestWatchApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4092A831212B29F600DD2D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4092A849212B29F800DD2D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4092A854212B29F800DD2D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4092A85D212B29F800DD2D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40B9A76C212B6E3A00144578</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
