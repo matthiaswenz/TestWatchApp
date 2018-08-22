@@ -24,8 +24,6 @@
 		4092A87A212B29F800DD2D85 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A879212B29F800DD2D85 /* NotificationController.m */; };
 		4092A87D212B29F800DD2D85 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A87C212B29F800DD2D85 /* ComplicationController.m */; };
 		4092A87F212B29F900DD2D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4092A87E212B29F900DD2D85 /* Assets.xcassets */; };
-		40B9A771212B6E3A00144578 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B9A770212B6E3A00144578 /* KeyboardViewController.m */; };
-		40B9A775212B6E3A00144578 /* TestKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40B9A76D212B6E3A00144578 /* TestKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +54,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4092A86C212B29F800DD2D85;
 			remoteInfo = "TestWatchApp WatchKit Extension";
-		};
-		40B9A773212B6E3A00144578 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4092A82A212B29F600DD2D85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40B9A76C212B6E3A00144578;
-			remoteInfo = TestKeyboard;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -95,7 +86,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				40B9A775212B6E3A00144578 /* TestKeyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,10 +125,6 @@
 		4092A87E212B29F900DD2D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4092A880212B29F900DD2D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4092A881212B29F900DD2D85 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		40B9A76D212B6E3A00144578 /* TestKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B9A76F212B6E3A00144578 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
-		40B9A770212B6E3A00144578 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
-		40B9A772212B6E3A00144578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,13 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40B9A76A212B6E3A00144578 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -188,7 +167,6 @@
 				4092A858212B29F800DD2D85 /* TestWatchAppUITests */,
 				4092A862212B29F800DD2D85 /* TestWatchApp WatchKit App */,
 				4092A871212B29F800DD2D85 /* TestWatchApp WatchKit Extension */,
-				40B9A76E212B6E3A00144578 /* TestKeyboard */,
 				4092A833212B29F600DD2D85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,7 +179,6 @@
 				4092A855212B29F800DD2D85 /* TestWatchAppUITests.xctest */,
 				4092A85E212B29F800DD2D85 /* TestWatchApp WatchKit App.app */,
 				4092A86D212B29F800DD2D85 /* TestWatchApp WatchKit Extension.appex */,
-				40B9A76D212B6E3A00144578 /* TestKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,16 +245,6 @@
 			path = "TestWatchApp WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		40B9A76E212B6E3A00144578 /* TestKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				40B9A76F212B6E3A00144578 /* KeyboardViewController.h */,
-				40B9A770212B6E3A00144578 /* KeyboardViewController.m */,
-				40B9A772212B6E3A00144578 /* Info.plist */,
-			);
-			path = TestKeyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,7 +262,6 @@
 			);
 			dependencies = (
 				4092A861212B29F800DD2D85 /* PBXTargetDependency */,
-				40B9A774212B6E3A00144578 /* PBXTargetDependency */,
 			);
 			name = TestWatchApp;
 			productName = TestWatchApp;
@@ -372,23 +338,6 @@
 			productReference = 4092A86D212B29F800DD2D85 /* TestWatchApp WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		40B9A76C212B6E3A00144578 /* TestKeyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40B9A778212B6E3A00144578 /* Build configuration list for PBXNativeTarget "TestKeyboard" */;
-			buildPhases = (
-				40B9A769212B6E3A00144578 /* Sources */,
-				40B9A76A212B6E3A00144578 /* Frameworks */,
-				40B9A76B212B6E3A00144578 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestKeyboard;
-			productName = TestKeyboard;
-			productReference = 40B9A76D212B6E3A00144578 /* TestKeyboard.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -415,9 +364,6 @@
 					4092A86C212B29F800DD2D85 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					40B9A76C212B6E3A00144578 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
 				};
 			};
 			buildConfigurationList = 4092A82D212B29F600DD2D85 /* Build configuration list for PBXProject "TestWatchApp" */;
@@ -438,7 +384,6 @@
 				4092A854212B29F800DD2D85 /* TestWatchAppUITests */,
 				4092A85D212B29F800DD2D85 /* TestWatchApp WatchKit App */,
 				4092A86C212B29F800DD2D85 /* TestWatchApp WatchKit Extension */,
-				40B9A76C212B6E3A00144578 /* TestKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -485,13 +430,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40B9A76B212B6E3A00144578 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -532,14 +470,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40B9A769212B6E3A00144578 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40B9A771212B6E3A00144578 /* KeyboardViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -562,11 +492,6 @@
 			isa = PBXTargetDependency;
 			target = 4092A86C212B29F800DD2D85 /* TestWatchApp WatchKit Extension */;
 			targetProxy = 4092A86F212B29F800DD2D85 /* PBXContainerItemProxy */;
-		};
-		40B9A774212B6E3A00144578 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 40B9A76C212B6E3A00144578 /* TestKeyboard */;
-			targetProxy = 40B9A773212B6E3A00144578 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -896,44 +821,6 @@
 			};
 			name = Release;
 		};
-		40B9A776212B6E3A00144578 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29UTQE9JS9;
-				INFOPLIST_FILE = TestKeyboard/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp.TestKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		40B9A777212B6E3A00144578 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29UTQE9JS9;
-				INFOPLIST_FILE = TestKeyboard/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp.TestKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -987,15 +874,6 @@
 			buildConfigurations = (
 				4092A893212B29F900DD2D85 /* Debug */,
 				4092A894212B29F900DD2D85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		40B9A778212B6E3A00144578 /* Build configuration list for PBXNativeTarget "TestKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40B9A776212B6E3A00144578 /* Debug */,
-				40B9A777212B6E3A00144578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
