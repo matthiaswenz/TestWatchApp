@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405F1612212F769C005B6E09 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405F1611212F769C005B6E09 /* NotificationCenter.framework */; };
+		405F1616212F769C005B6E09 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405F1615212F769C005B6E09 /* TodayViewController.m */; };
+		405F1619212F769C005B6E09 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405F1617212F769C005B6E09 /* MainInterface.storyboard */; };
+		405F161D212F769C005B6E09 /* TestToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 405F160F212F769C005B6E09 /* TestToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4092A837212B29F700DD2D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A836212B29F700DD2D85 /* AppDelegate.m */; };
 		4092A83A212B29F700DD2D85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A839212B29F700DD2D85 /* ViewController.m */; };
 		4092A83D212B29F700DD2D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4092A83B212B29F700DD2D85 /* Main.storyboard */; };
@@ -18,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		405F161B212F769C005B6E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4092A82A212B29F600DD2D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405F160E212F769C005B6E09;
+			remoteInfo = TestToday;
+		};
 		4092A84B212B29F800DD2D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4092A82A212B29F600DD2D85 /* Project object */;
@@ -51,6 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				405F161D212F769C005B6E09 /* TestToday.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +70,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		405F160F212F769C005B6E09 /* TestToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		405F1611212F769C005B6E09 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		405F1614212F769C005B6E09 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		405F1615212F769C005B6E09 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		405F1618212F769C005B6E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		405F161A212F769C005B6E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4092A832212B29F600DD2D85 /* TestWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4092A835212B29F700DD2D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4092A836212B29F700DD2D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +95,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		405F160C212F769C005B6E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F1612212F769C005B6E09 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4092A82F212B29F600DD2D85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,12 +127,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		405F1610212F769C005B6E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405F1611212F769C005B6E09 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405F1613212F769C005B6E09 /* TestToday */ = {
+			isa = PBXGroup;
+			children = (
+				405F1614212F769C005B6E09 /* TodayViewController.h */,
+				405F1615212F769C005B6E09 /* TodayViewController.m */,
+				405F1617212F769C005B6E09 /* MainInterface.storyboard */,
+				405F161A212F769C005B6E09 /* Info.plist */,
+			);
+			path = TestToday;
+			sourceTree = "<group>";
+		};
 		4092A829212B29F600DD2D85 = {
 			isa = PBXGroup;
 			children = (
 				4092A834212B29F600DD2D85 /* TestWatchApp */,
 				4092A84D212B29F800DD2D85 /* TestWatchAppTests */,
 				4092A858212B29F800DD2D85 /* TestWatchAppUITests */,
+				405F1613212F769C005B6E09 /* TestToday */,
+				405F1610212F769C005B6E09 /* Frameworks */,
 				4092A833212B29F600DD2D85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +164,7 @@
 				4092A832212B29F600DD2D85 /* TestWatchApp.app */,
 				4092A84A212B29F800DD2D85 /* TestWatchAppTests.xctest */,
 				4092A855212B29F800DD2D85 /* TestWatchAppUITests.xctest */,
+				405F160F212F769C005B6E09 /* TestToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +206,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		405F160E212F769C005B6E09 /* TestToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405F161E212F769C005B6E09 /* Build configuration list for PBXNativeTarget "TestToday" */;
+			buildPhases = (
+				405F160B212F769C005B6E09 /* Sources */,
+				405F160C212F769C005B6E09 /* Frameworks */,
+				405F160D212F769C005B6E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestToday;
+			productName = TestToday;
+			productReference = 405F160F212F769C005B6E09 /* TestToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		4092A831212B29F600DD2D85 /* TestWatchApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4092A88C212B29F900DD2D85 /* Build configuration list for PBXNativeTarget "TestWatchApp" */;
@@ -171,6 +236,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				405F161C212F769C005B6E09 /* PBXTargetDependency */,
 			);
 			name = TestWatchApp;
 			productName = TestWatchApp;
@@ -222,6 +288,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Matthias Wenz";
 				TargetAttributes = {
+					405F160E212F769C005B6E09 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					4092A831212B29F600DD2D85 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -251,11 +320,20 @@
 				4092A831212B29F600DD2D85 /* TestWatchApp */,
 				4092A849212B29F800DD2D85 /* TestWatchAppTests */,
 				4092A854212B29F800DD2D85 /* TestWatchAppUITests */,
+				405F160E212F769C005B6E09 /* TestToday */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		405F160D212F769C005B6E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F1619212F769C005B6E09 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4092A830212B29F600DD2D85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +361,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		405F160B212F769C005B6E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F1616212F769C005B6E09 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4092A82E212B29F600DD2D85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +398,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		405F161C212F769C005B6E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405F160E212F769C005B6E09 /* TestToday */;
+			targetProxy = 405F161B212F769C005B6E09 /* PBXContainerItemProxy */;
+		};
 		4092A84C212B29F800DD2D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4092A831212B29F600DD2D85 /* TestWatchApp */;
@@ -325,6 +416,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		405F1617212F769C005B6E09 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405F1618212F769C005B6E09 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		4092A83B212B29F700DD2D85 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,6 +443,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		405F161F212F769C005B6E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29UTQE9JS9;
+				INFOPLIST_FILE = TestToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestAppOldSchool.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b6ba7695-cf99-4905-9ec5-c3614c3d423a";
+				PROVISIONING_PROFILE_SPECIFIER = "Bowstreet Developer";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		405F1620212F769C005B6E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29UTQE9JS9;
+				INFOPLIST_FILE = TestToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestAppOldSchool.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "01740f81-973b-4023-b5c3-0f2599b60675";
+				PROVISIONING_PROFILE_SPECIFIER = TestAppOldSchoolTodayExtensionAdHoc;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4092A882212B29F900DD2D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -571,6 +712,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		405F161E212F769C005B6E09 /* Build configuration list for PBXNativeTarget "TestToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405F161F212F769C005B6E09 /* Debug */,
+				405F1620212F769C005B6E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4092A82D212B29F600DD2D85 /* Build configuration list for PBXProject "TestWatchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
