@@ -637,7 +637,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = "TestWatchApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -647,6 +648,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "b6ba7695-cf99-4905-9ec5-c3614c3d423a";
+				PROVISIONING_PROFILE_SPECIFIER = "Bowstreet Developer";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -658,7 +661,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = "TestWatchApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -668,6 +672,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "b13db5f8-3c21-4a8d-9810-6fe20ee89a8b";
+				PROVISIONING_PROFILE_SPECIFIER = TestWatchAppWildcard;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -679,12 +685,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				IBSC_MODULE = TestWatchApp_WatchKit_Extension;
 				INFOPLIST_FILE = "TestWatchApp WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b6ba7695-cf99-4905-9ec5-c3614c3d423a";
+				PROVISIONING_PROFILE_SPECIFIER = "Bowstreet Developer";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -696,12 +704,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				IBSC_MODULE = TestWatchApp_WatchKit_Extension;
 				INFOPLIST_FILE = "TestWatchApp WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b13db5f8-3c21-4a8d-9810-6fe20ee89a8b";
+				PROVISIONING_PROFILE_SPECIFIER = TestWatchAppWildcard;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -714,7 +725,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = TestWatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -723,7 +734,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "b6ba7695-cf99-4905-9ec5-c3614c3d423a";
+				PROVISIONING_PROFILE_SPECIFIER = "Bowstreet Developer";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -732,8 +744,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = TestWatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -742,7 +754,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "b13db5f8-3c21-4a8d-9810-6fe20ee89a8b";
+				PROVISIONING_PROFILE_SPECIFIER = TestWatchAppWildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
