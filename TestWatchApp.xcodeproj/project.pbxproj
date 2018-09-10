@@ -15,7 +15,6 @@
 		4092A845212B29F800DD2D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A844212B29F800DD2D85 /* main.m */; };
 		4092A84F212B29F800DD2D85 /* TestWatchAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A84E212B29F800DD2D85 /* TestWatchAppTests.m */; };
 		4092A85A212B29F800DD2D85 /* TestWatchAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A859212B29F800DD2D85 /* TestWatchAppUITests.m */; };
-		4092A85F212B29F800DD2D85 /* TestWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4092A85E212B29F800DD2D85 /* TestWatchApp WatchKit App.app */; };
 		4092A865212B29F800DD2D85 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4092A863212B29F800DD2D85 /* Interface.storyboard */; };
 		4092A867212B29F800DD2D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4092A866212B29F800DD2D85 /* Assets.xcassets */; };
 		4092A86E212B29F800DD2D85 /* TestWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4092A86D212B29F800DD2D85 /* TestWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -25,7 +24,6 @@
 		4092A87D212B29F800DD2D85 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4092A87C212B29F800DD2D85 /* ComplicationController.m */; };
 		4092A87F212B29F900DD2D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4092A87E212B29F900DD2D85 /* Assets.xcassets */; };
 		40B9A771212B6E3A00144578 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B9A770212B6E3A00144578 /* KeyboardViewController.m */; };
-		40B9A775212B6E3A00144578 /* TestKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40B9A76D212B6E3A00144578 /* TestKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,26 +41,12 @@
 			remoteGlobalIDString = 4092A831212B29F600DD2D85;
 			remoteInfo = TestWatchApp;
 		};
-		4092A860212B29F800DD2D85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4092A82A212B29F600DD2D85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4092A85D212B29F800DD2D85;
-			remoteInfo = "TestWatchApp WatchKit App";
-		};
 		4092A86F212B29F800DD2D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4092A82A212B29F600DD2D85 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4092A86C212B29F800DD2D85;
 			remoteInfo = "TestWatchApp WatchKit Extension";
-		};
-		40B9A773212B6E3A00144578 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4092A82A212B29F600DD2D85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40B9A76C212B6E3A00144578;
-			remoteInfo = TestKeyboard;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,7 +68,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4092A85F212B29F800DD2D85 /* TestWatchApp WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,7 +78,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				40B9A775212B6E3A00144578 /* TestKeyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,8 +276,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4092A861212B29F800DD2D85 /* PBXTargetDependency */,
-				40B9A774212B6E3A00144578 /* PBXTargetDependency */,
 			);
 			name = TestWatchApp;
 			productName = TestWatchApp;
@@ -553,20 +533,10 @@
 			target = 4092A831212B29F600DD2D85 /* TestWatchApp */;
 			targetProxy = 4092A856212B29F800DD2D85 /* PBXContainerItemProxy */;
 		};
-		4092A861212B29F800DD2D85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4092A85D212B29F800DD2D85 /* TestWatchApp WatchKit App */;
-			targetProxy = 4092A860212B29F800DD2D85 /* PBXContainerItemProxy */;
-		};
 		4092A870212B29F800DD2D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4092A86C212B29F800DD2D85 /* TestWatchApp WatchKit Extension */;
 			targetProxy = 4092A86F212B29F800DD2D85 /* PBXContainerItemProxy */;
-		};
-		40B9A774212B6E3A00144578 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 40B9A76C212B6E3A00144578 /* TestKeyboard */;
-			targetProxy = 40B9A773212B6E3A00144578 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
