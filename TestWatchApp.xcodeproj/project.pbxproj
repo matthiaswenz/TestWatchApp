@@ -58,7 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4092A832212B29F600DD2D85 /* TestWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4092A832212B29F600DD2D85 /* Test + Watch + App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test + Watch + App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4092A835212B29F700DD2D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4092A836212B29F700DD2D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4092A838212B29F700DD2D85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		4092A833212B29F600DD2D85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4092A832212B29F600DD2D85 /* TestWatchApp.app */,
+				4092A832212B29F600DD2D85 /* Test + Watch + App.app */,
 				4092A84A212B29F800DD2D85 /* TestWatchAppTests.xctest */,
 				4092A855212B29F800DD2D85 /* TestWatchAppUITests.xctest */,
 			);
@@ -174,7 +174,7 @@
 			);
 			name = TestWatchApp;
 			productName = TestWatchApp;
-			productReference = 4092A832212B29F600DD2D85 /* TestWatchApp.app */;
+			productReference = 4092A832212B29F600DD2D85 /* Test + Watch + App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4092A849212B29F800DD2D85 /* TestWatchAppTests */ = {
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Test + Watch + App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ranterle.TestWatchApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Test + Watch + App";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
