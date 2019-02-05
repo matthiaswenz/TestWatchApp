@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4092A831212B29F600DD2D85"
-               BuildableName = "TestWatchApp.app"
+               BuildableName = "Test + Watch + App.app"
                BlueprintName = "TestWatchApp"
                ReferencedContainer = "container:TestWatchApp.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4092A831212B29F600DD2D85"
-            BuildableName = "TestWatchApp.app"
+            BuildableName = "Test + Watch + App.app"
             BlueprintName = "TestWatchApp"
             ReferencedContainer = "container:TestWatchApp.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4092A831212B29F600DD2D85"
-            BuildableName = "TestWatchApp.app"
+            BuildableName = "Test + Watch + App.app"
             BlueprintName = "TestWatchApp"
             ReferencedContainer = "container:TestWatchApp.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4092A831212B29F600DD2D85"
-            BuildableName = "TestWatchApp.app"
+            BuildableName = "Test + Watch + App.app"
             BlueprintName = "TestWatchApp"
             ReferencedContainer = "container:TestWatchApp.xcodeproj">
          </BuildableReference>
@@ -106,7 +106,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "BlaBlub"
+      customArchiveName = "Testr + Watch_App"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
